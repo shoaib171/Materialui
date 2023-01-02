@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
 
+import { Typography } from "@mui/material";
+import "./App.css";
+import Buttons from "./Components/Buttons";
+import CheckBoxes from "./Components/CheckBoxes";
+import RadioButton from "./Components/RadioButton";
+import Sliders from "./Components/slider";
+import RangeSlider from "./Components/RangeSlider";
+import SelectBox from "./Components/SelectBox";
+import Text from "./Components/Text";
+import Contained from "./Components/Contained";
+import ResponsiveDesign from "./Components/ResponsiveDesign";
+import TabsMenu from "./Components/TabsMenu";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*
+        <Buttons />
+      <CheckBoxes />
+      <RadioButton />
+      <Sliders />
+      <RangeSlider />
+         <SelectBox />
+          <ResponsiveDesign />
+          <Text />
+        */}
+      <TabsMenu />
     </div>
   );
 }
